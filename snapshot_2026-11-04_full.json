@@ -1,0 +1,82 @@
+{
+  "run_utc": "04 Nov 2026 12:07 UTC",
+  "steps": {
+    "1": {
+      "address": "0x9001dbe4D68d36ab87923A2a9Dfb0c745fd25001",
+      "has_code": true,
+      "totalSupply": 27012.613155,
+      "owner": "0x44143b3de2f977b92c054c6f32fdbd3b3cb74120",
+      "owner_kind": "contract (7,197 bytes), not a Safe or timelock by interface",
+      "code_bytes": 7197,
+      "USDT0.s_owner": "0x44143b3de2f977b92c054c6f32fdbd3b3cb74120",
+      "WETH_owner": "0x44143b3de2f977b92c054c6f32fdbd3b3cb74120"
+    },
+    "2": {
+      "mint_events": 1,
+      "burn_events": 0,
+      "minted": 4.0,
+      "burned": 0.0,
+      "net_equals_supply": false,
+      "mints": [
+        {
+          "block": 13650210,
+          "tx": "0xe15840c22c19e5341f1c7255f0efcd5209fb0314c764b5b83dbf3af666ed2ddf",
+          "to": "0x5d1c636ab61782beb04cc685922f0197758a81aa",
+          "amount": 4.0
+        }
+      ]
+    },
+    "3": {
+      "escrow_usdc_e": 26842.6315,
+      "usdr_supply": 25851.670128933503,
+      "withdrawableSurplus": 990961372,
+      "minterBurner": "0x07e17e17e17e17e17e17e17e17e17e17e17e17e6",
+      "minterBurner_kind": "contract (122 bytes), not a Safe or timelock by interface",
+      "usdc_e_outside_escrow": 169.981655
+    },
+    "4": {
+      "holders": "17",
+      "transfers": "657",
+      "top": [
+        {
+          "address": "0xD19A5e28FEd41FA289E92Ae61B9Bc5BD883DB0D2",
+          "value": 26842.6315
+        },
+        {
+          "address": "0x3974060039aBdD345aE629203B0E97e9cA0e52B6",
+          "value": 101.537999
+        },
+        {
+          "address": "0xfD248EC9CF424C688e4109D6f6Bf94fB829c943B",
+          "value": 28.470946
+        },
+        {
+          "address": "0xe0Ad8C699Ee0A9F8000a18307F677746f2Caa43B",
+          "value": 12.461993
+        },
+        {
+          "address": "0xA0B56398207604DA1e29DDa838B4eB81373b3276",
+          "value": 10.0
+        },
+        {
+          "address": "0xe56ba0F718186f33F79E33c917b7DB6a432262A3",
+          "value": 5.0
+        },
+        {
+          "address": "0xC7E33057e72A5331E9EcbdD8159995dE6c78f554",
+          "value": 5.0
+        },
+        {
+          "address": "0x6e47f840847940FC47e1C9Ab3BE333eBCc63D69E",
+          "value": 2.0
+        }
+      ]
+    },
+    "5": {
+      "pool_usdc": 33148765.491167,
+      "pool_token": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "rayls_usdc_e_supply": 27012.613155
+    }
+  },
+  "rayls_block": 13833075
+}
